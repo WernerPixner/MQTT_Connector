@@ -128,5 +128,11 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\M2MQTT.Net\M2Mqtt\M2Mqtt.Net.csproj">
+      <Project>{a11aef5a-b246-4fe8-8330-06db73cc8074}</Project>
+      <Name>M2Mqtt.Net</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
